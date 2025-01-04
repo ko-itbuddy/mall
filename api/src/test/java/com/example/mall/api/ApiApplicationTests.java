@@ -1,12 +1,13 @@
-package com.example.mall;
+package com.example.mall.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
+import org.testcontainers.utility.TestcontainersConfiguration;
 
 @Import(TestcontainersConfiguration.class)
 @SpringBootTest
-class AdminApplicationTests {
+class ApiApplicationTests {
 
     @Test
     void contextLoads() {
