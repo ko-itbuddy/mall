@@ -65,6 +65,10 @@ subprojects {
     }
 }
 
+tasks.named('test') {
+    dependsOn ':api:test', ':admin:test'
+}
+
 tasks.named('wrapper') {
     gradleVersion = '8.11.1'
 }
@@ -92,6 +96,16 @@ project(":external") {
 }
 
 project(":api") {
+    dependencies {
+        implementation project(":common")
+        implementation project(":core")
+        implementation project(":external")
+    }
+
+    tasks.jar { enabled = false }
+}
+
+project(":admin") {
     dependencies {
         implementation project(":common")
         implementation project(":core")
