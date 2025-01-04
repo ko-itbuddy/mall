@@ -1,4 +1,4 @@
-package com.example.mall.config.db;
+package com.example.mall.common.config;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import jakarta.persistence.EntityManager;

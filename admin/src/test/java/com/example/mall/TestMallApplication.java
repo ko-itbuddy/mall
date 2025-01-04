@@ -1,5 +1,6 @@
 package com.example.mall;
 
+import com.example.mall.admin.AdminApplication;
 import org.springframework.boot.SpringApplication;
 
 public class TestMallApplication {
