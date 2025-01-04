@@ -1,0 +1,4 @@
+spring:
+  application.name: mall
+  profiles:
+    default: local

@@ -1,0 +1,6 @@
+rootProject.name = 'mall'
+
+include 'common'
+include 'core'
+include 'external'
+include 'api'
