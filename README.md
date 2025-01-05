@@ -14,3 +14,8 @@
 ```shell
   ./gradlew api:bootrun
 ```
+
+
+# Guava
+- checkArgument → 생성자에서
+- checkStatus → 각 메서드에서
